@@ -1,0 +1,7 @@
+version: "3"
+services:
+  python_tcp_server:
+    container_name: python_tcp_server
+    build: .
+    ports:
+        - "8080:8080"
